@@ -352,7 +352,21 @@ p {
     flex: 0 50%;
     max-width: 50%;
   }
+  .card:hover {
+  background-position: 0 100%;
+  }
+  .card:hover .icon-wrapper {
+  background-color: #ffffff;
+  color: #5c7c89;
+  }
+  .card:hover h4 {
+  color: #ffffff;
+  }
+  .card:hover p {
+  color: #f0f0f0;
+  }
 }
+
 @media screen and (min-width: 992px) {
   section {
     padding: 1em 3em;
@@ -360,6 +374,19 @@ p {
   .column {
     flex: 0 0 33.33%;
     max-width: 33.33%;
+  }
+  .card:hover {
+  background-position: 0 100%;
+  }
+  .card:hover .icon-wrapper {
+  background-color: #ffffff;
+  color: #5c7c89;
+  }
+  .card:hover h4 {
+  color: #ffffff;
+  }
+  .card:hover p {
+  color: #f0f0f0;
   }
 }
 /*End of code for the Services*/
