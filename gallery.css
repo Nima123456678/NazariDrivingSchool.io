@@ -198,6 +198,12 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+@media screen and (max-width: 767px) {
+  div.gallery{
+    margin-left: 0px;
+  }
+}
+
 /*end gallery*/
 
 
@@ -218,6 +224,12 @@ div.desc {
   
     padding: 55px 50px;
     margin-top: 1400px;
+  }
+
+@media screen and (max-width: 767px) {
+    .footer-distributed{
+      margin-top: 4000px;
+    }
   }
   
   .footer-distributed .footer-left,
