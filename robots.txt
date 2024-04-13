@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /private/
 Allow: /public/
-Sitemap: http://nazaridrivingschool.com/sitemap (1).xml
+Sitemap: http://nazaridrivingschool.com/sitemap (3).xml
